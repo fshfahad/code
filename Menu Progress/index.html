@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+	<title>Tech Heights-a leading web development company</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
+	<!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('.navigation');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+</head>
+<body>
+<div class="menu">
+		<div class="container clearfix">
+			<div id="logo" class="grid_3">
+				<img src="images/Logo.gif">
+			</div>
+			<div id="nav" class="grid_9 omega">
+				<ul class="navigation">
+					<li data-slide="1">HOME</li>
+					<li data-slide="2">ABOUT US</li>
+					<li data-slide="3">SERVICES</li>
+					<li data-slide="4">PORTFOLIO</li>
+				</ul>
+				
+			</div>
+			
+		</div>
+		<a href="#" id="pull">Menu</a>
+	</div>
+	<div class="slide" id="slide1" data-slide="1">
+		<div class="container clearfix">
+		<div id="content" class="grid_12">
+		<div id="wowslider-container1" style="background-color-transparent">
+	<div class="ws_images"><ul>
+<li><img src="data1/images/industry_heights.jpg" alt="We are leading the industry to it's heights" title="We are leading the industry to it's heights" id="wows1_0"/>So come along if you want to be a leader in your industry</li>
+<li><img src="data1/images/professionalswork.jpg" alt="Let the professionals do it for you" title="Let the professionals do it for you" id="wows1_1"/>Dedicated and experienced team will ensure the quality of services to be delivered to you</li>
+<li><img src="data1/images/innovativewebdesign.jpg" alt="A design that will amaze you" title="A design that will amaze you" id="wows1_2"/></li>
+<li><img src="data1/images/onewebsitealldevices.jpg" alt="One web design for all devices" title="One web design for all devices" id="wows1_3"/>Including mobile tablet and  other devices</li>
+<li><img src="data1/images/crossbrowser.jpg" alt="Cross browser compatible" title="Cross browser compatible" id="wows1_4"/>Perfect display in all Browsers</li>
+<li><img src="data1/images/copany.jpg" alt="We don't just sell the code!" title="We don't just sell the code!" id="wows1_5"/>We are a client oriented and solution centric company</li>
+<li><img src="data1/images/cmsintegeration.jpg" alt="CMS Integration" title="CMS Integration" id="wows1_6"/>HTML, CSS integration withWordpress, Joomla, Drupal</li>
+<li><img src="data1/images/responsivedesign3.jpg" alt="Responsive web design" title="Responsive web design" id="wows1_7"/></li>
+<li><img src="data1/images/parallax_design.jpg" alt="Parallax scrolling" title="Parallax scrolling" id="wows1_8"/>We use modern teends and standards  in our designs including CSS 3 HTML 5</li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="We are leading the industry to it's heights"><img src="data1/tooltips/industry_heights.jpg" alt="We are leading the industry to it's heights"/>1</a>
+<a href="#" title="Let the professionals do it for you"><img src="data1/tooltips/professionalswork.jpg" alt="Let the professionals do it for you"/>2</a>
+<a href="#" title="A design that will amaze you"><img src="data1/tooltips/innovativewebdesign.jpg" alt="A design that will amaze you"/>3</a>
+<a href="#" title="One web design for all devices"><img src="data1/tooltips/onewebsitealldevices.jpg" alt="One web design for all devices"/>4</a>
+<a href="#" title="Cross browser compatible"><img src="data1/tooltips/crossbrowser.jpg" alt="Cross browser compatible"/>5</a>
+<a href="#" title="We don't just sell the code!"><img src="data1/tooltips/copany.jpg" alt="We don't just sell the code!"/>6</a>
+<a href="#" title="CMS Integration"><img src="data1/tooltips/cmsintegeration.jpg" alt="CMS Integration"/>7</a>
+<a href="#" title="Responsive web design"><img src="data1/tooltips/responsivedesign3.jpg" alt="Responsive web design"/>8</a>
+<a href="#" title="Parallax scrolling"><img src="data1/tooltips/parallax_design.jpg" alt="Parallax scrolling"/>9</a>
+</div></div>
+	<div class="ws_shadow"></div>
+	
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+			<div id="content" class="grid_12">
+				<h1>About Us</h1>
+				<h2>Your promotion is our mission</h2>
+			</div>
+		</div>
+	</div>
+	<div class="article">
+	<h1><span><img src="images/about_us_icon-6.jpg" alt="aboutusicon" width="70" height="70"></span>
+Who we are!</h1>
+				<p>Tech heights technologies is a US based globally recognized and appreciated web design and development company that enables it's clients to achieve high impact business results.</p>
+				<p>As a trusted solution provider we content to create measurable client value through the maximazation of technology and innovative businwss solution.We provide solution that transce all areas of your business through the integerated use of our cohesive discipline and mission oriented technological solutions.</p>
+				<p>We work with our clients closely to provide you fully customized and flexible web solutions.</p>
+				<p>your project is not just another project for us we will take it as a challwnge to show you how profwssional and passionate we are regarding our clients.</p>
+				<p>Tech heights offers high quality IT outsourcing solutions with professional services of outstanding quality, competence,performance and objectivity with much needed user-friendliness towards our clients in and around the globe.</p>
+				<p>We have 15 years experience of creating flexible, cost effective, fully customised and innovative business solutions for small business to large companies .</p>
+				<p>We provide web design and development services web hosting mobile application development cms integeration and development graphics designing and many other IT services.</p>
+				<p>During your project from start to end you will get our team\s undivided attention and they will be available for you 24 hours 7 days aweek through email,,voice chat and cell phone because we focus on 1 project at a time.untill our clinet satisfied with our services.</p>
+<p>Remember we don't offer cheap service we deliver affordable solutions that best suite your business needs and brands.</p>
+	</div>
+	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+			<div id="content" class="grid_12">
+<h1>Our Services</h1>
+<h2>We establish a close and reliable business reationship that you will never forget</h2>
+          </div>
+		</div>
+	</div>
+    <div class="article">
+    <h1><span><img src="images/services-icon.jpg" alt="services icon" width="70" height="70"></span> What we do!</h1>
+    
+    </div>
+<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
+	<div class="container clearfix">
+			<div id="content" class="grid_12">
+				<h1></h1>
+				<h2></h2>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<!-- <script type="text/javascript" src="js/scripts.min.js"></script> -->
+</body>
+</html>

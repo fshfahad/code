@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'test font';
+	src: url('costura_regular-webfont.eot');
+	src: url('costura_regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('costura_regular-webfont.woff') format('woff'),
+		url('costura_regular-webfont.ttf') format('truetype'),
+		url('costura_regular-webfont.svg') format('svg');
+}
